@@ -1,0 +1,31 @@
+bootstrap_clean_blog_header_image: field_image
+bootstrap_clean_blog_header_default: 'http://d8_demo.dd:8083/themes/contrib/bootstrap_clean_blog/images/home-bg.jpg'
+bootstrap_clean_blog_social_facebook: 'https://www.facebook.com'
+bootstrap_clean_blog_social_twitter: 'https://twitter.com'
+bootstrap_clean_blog_social_github: 'https://github.com'
+bootstrap_clean_blog_social_drupal: 'https://drupal.org'
+bootstrap_clean_blog_social_instagram: 'https://instagram.com'
+bootstrap_clean_blog_social_reddit: 'https://reddit.com'
+bootstrap_clean_blog_social_flickr: 'https://flickr.com'
+bootstrap_clean_blog_social_linkedin: 'https://linkedin.com'
+_core:
+  default_config_hash: 8Cp0LirRgCICAHEZnhxtkUjEaSalfES-0KbNhOQFZZ4
+schemas:
+  bootstrap: 8000
+  bootstrap_clean_blog: 8000
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://d8_demo.dd:8083/themes/contrib/bootstrap/favicon.ico'
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: ''
+  url: ''
+  use_default: true
+table_responsive: '-1'
+table: ''

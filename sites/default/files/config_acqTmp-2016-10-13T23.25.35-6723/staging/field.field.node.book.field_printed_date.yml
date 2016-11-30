@@ -1,0 +1,21 @@
+uuid: 37392dd6-1ec4-43cd-8786-759d4d6edb10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_printed_date
+    - node.type.book
+  module:
+    - datetime
+id: node.book.field_printed_date
+field_name: field_printed_date
+entity_type: node
+bundle: book
+label: 'Printed Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

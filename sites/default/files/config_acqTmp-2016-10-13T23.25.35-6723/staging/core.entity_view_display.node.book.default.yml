@@ -1,0 +1,44 @@
+uuid: 0d455442-e99b-4726-baec-259a96a3bd24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.book.body
+    - field.field.node.book.field_isbn
+    - field.field.node.book.field_printed_date
+    - node.type.book
+  module:
+    - datetime
+    - text
+    - user
+_core:
+  default_config_hash: 7UKHHzhlAE0hzKaKG_KHqUXXOp85mAQ1nZTOep8quTc
+id: node.book.default
+targetEntityType: node
+bundle: book
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+  field_isbn:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_printed_date:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  links:
+    weight: 101
+hidden: {  }
